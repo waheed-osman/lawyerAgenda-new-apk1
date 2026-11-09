@@ -1,0 +1,39 @@
+name: lawyer_agenda
+description: أجندة المحامي القانونية - Lawyer's Legal Agenda (offline-first)
+publish_to: 'none'
+version: 5.0.0+5
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.2
+  table_calendar: ^3.1.2
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  flutter_timezone: ^2.0.0
+  local_auth: ^2.3.0
+  crypto: ^3.0.5
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  share_plus: ^10.0.2
+  printing: ^5.13.1
+  url_launcher: ^6.3.0
+  http: ^1.2.2
+  archive: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
